@@ -1,0 +1,336 @@
+openapi: 3.1.0
+info:
+  title: Multi-Format Document Ingestion API
+  description: |
+    API for ingesting documents in multiple formats (PDF, HTML, Markdown, Word, Plain Text, Images)
+    into the Arabic RAG chatbot vector store.
+  version: 1.0.0
+  contact:
+    name: Arabic RAG Chatbot
+
+servers:
+  - url: http://localhost:8000
+    description: Local development server
+
+paths:
+  /documents/ingest/file:
+    post:
+      operationId: ingestFile
+      summary: Ingest a single file
+      description: |
+        Upload and ingest a single file into the vector store.
+        Supports: PDF, HTML, Markdown, Word (.docx), Plain Text (.txt), and Images.
+        For images, uses vLLM for text extraction or semantic description generation.
+      tags:
+        - Documents
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/FileUploadRequest'
+      responses:
+        '201':
+          description: File successfully ingested
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FileIngestResponse'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '413':
+          description: File too large (>25MB)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '415':
+          description: Unsupported file format
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '422':
+          description: File could not be processed (corrupted, no text, etc.)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '503':
+          description: Service unavailable (vLLM or Qdrant down)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /documents/ingest/batch:
+    post:
+      operationId: ingestBatch
+      summary: Ingest multiple files
+      description: |
+        Upload and ingest multiple files in a single request.
+        Maximum 10 files, maximum 50MB total size.
+        Files are processed sequentially to manage memory.
+      tags:
+        - Documents
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/BatchFileUploadRequest'
+      responses:
+        '201':
+          description: Batch processed (may include partial failures)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BatchFileIngestResponse'
+        '400':
+          description: Invalid request (too many files, etc.)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '413':
+          description: Total size too large (>50MB)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /documents/formats:
+    get:
+      operationId: getSupportedFormats
+      summary: Get supported file formats
+      description: Returns list of supported file formats and their extensions
+      tags:
+        - Documents
+      responses:
+        '200':
+          description: Supported formats list
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SupportedFormatsResponse'
+
+components:
+  schemas:
+    FileFormat:
+      type: string
+      enum:
+        - pdf
+        - html
+        - markdown
+        - docx
+        - text
+        - image
+        - unknown
+      description: Detected file format category
+
+    ImageExtractionMode:
+      type: string
+      enum:
+        - text
+        - description
+        - auto
+      default: auto
+      description: |
+        Mode for vLLM image processing:
+        - text: Extract text only (for document images)
+        - description: Generate semantic description (for photos, charts)
+        - auto: Auto-detect based on image content
+
+    ContentType:
+      type: string
+      enum:
+        - text
+        - heading
+        - table
+        - code
+        - list
+        - image_text
+        - image_description
+      description: Classification of extracted content
+
+    FileUploadRequest:
+      type: object
+      required:
+        - file
+      properties:
+        file:
+          type: string
+          format: binary
+          description: The file to upload
+        custom_metadata:
+          type: string
+          description: JSON string of custom metadata to attach to all chunks
+          example: '{"source": "research_paper", "author": "Dr. Ahmed"}'
+        image_mode:
+          $ref: '#/components/schemas/ImageExtractionMode'
+        preserve_tables:
+          type: boolean
+          default: true
+          description: Preserve table structure during extraction
+        extract_code_blocks:
+          type: boolean
+          default: true
+          description: Extract code blocks as separate content type
+
+    FileIngestResponse:
+      type: object
+      required:
+        - message
+        - filename
+        - file_format
+        - file_size_bytes
+        - documents_created
+        - chunks_created
+        - processing_time_ms
+      properties:
+        message:
+          type: string
+          example: File ingested successfully
+        filename:
+          type: string
+          example: research_report.pdf
+        file_format:
+          $ref: '#/components/schemas/FileFormat'
+        file_size_bytes:
+          type: integer
+          example: 1048576
+        documents_created:
+          type: integer
+          description: Number of logical documents extracted
+          example: 1
+        chunks_created:
+          type: integer
+          description: Number of chunks stored in vector database
+          example: 42
+        processing_time_ms:
+          type: integer
+          example: 3500
+        metadata:
+          type: object
+          additionalProperties: true
+          description: Extraction metadata (format-specific)
+          example:
+            num_pages: 10
+            detected_language: ar
+        warnings:
+          type: array
+          items:
+            type: string
+          description: Any warnings during processing
+          example:
+            - Chart on page 5 was skipped
+
+    BatchFileUploadRequest:
+      type: object
+      required:
+        - files
+      properties:
+        files:
+          type: array
+          items:
+            type: string
+            format: binary
+          maxItems: 10
+          description: List of files to upload (max 10)
+        shared_metadata:
+          type: string
+          description: JSON metadata applied to all files
+
+    BatchFileIngestResponse:
+      type: object
+      required:
+        - message
+        - total_files
+        - successful
+        - failed
+        - results
+        - total_chunks
+        - total_processing_time_ms
+      properties:
+        message:
+          type: string
+          example: Batch processing complete
+        total_files:
+          type: integer
+          example: 5
+        successful:
+          type: integer
+          example: 4
+        failed:
+          type: integer
+          example: 1
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/FileIngestResponse'
+        total_chunks:
+          type: integer
+          example: 150
+        total_processing_time_ms:
+          type: integer
+          example: 15000
+
+    SupportedFormatsResponse:
+      type: object
+      properties:
+        formats:
+          type: array
+          items:
+            type: object
+            properties:
+              format:
+                $ref: '#/components/schemas/FileFormat'
+              extensions:
+                type: array
+                items:
+                  type: string
+              mime_types:
+                type: array
+                items:
+                  type: string
+              description:
+                type: string
+          example:
+            - format: pdf
+              extensions: [".pdf"]
+              mime_types: ["application/pdf"]
+              description: Adobe PDF documents
+            - format: image
+              extensions: [".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp", ".webp"]
+              mime_types: ["image/jpeg", "image/png", "image/tiff", "image/bmp", "image/webp"]
+              description: Images (processed with vLLM for text extraction or description)
+
+    ErrorResponse:
+      type: object
+      required:
+        - detail
+      properties:
+        detail:
+          type: string
+          description: Error message
+          example: File size exceeds 25MB limit
+        error_code:
+          type: string
+          description: Machine-readable error code
+          example: FILE_TOO_LARGE
+        suggestions:
+          type: array
+          items:
+            type: string
+          description: Suggestions for resolving the error
+          example:
+            - Compress the file to reduce size
+            - Split into smaller files
+
+tags:
+  - name: Documents
+    description: Document ingestion and management endpoints

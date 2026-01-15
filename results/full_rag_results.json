@@ -1,0 +1,699 @@
+{
+  "metadata": {
+    "timestamp": "2026-01-11T17:50:10.148484",
+    "mode": "full_rag",
+    "llm_provider": "openrouter",
+    "total_questions": 35
+  },
+  "results": {
+    "easy": [
+      {
+        "question_id": "easy_1",
+        "question_ar": "ما هو سعر باقة X الشهرية؟",
+        "question_en": "What is the price of the monthly X package?",
+        "response": "سعر باقة X الشهرية هو 20 جنيه.",
+        "expected_answer": "باقة X سعرها 20 جنيه شهرياً وصلاحيتها 30 يوم",
+        "sources_count": 3,
+        "latency_seconds": 13.37,
+        "topics_found": 3,
+        "total_topics": 4,
+        "topic_coverage": 0.75,
+        "topic_hits": {
+          "X": true,
+          "20": true,
+          "جنيه": true,
+          "30": false
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "easy_2",
+        "question_ar": "ما هو سعر باقة X Plus؟",
+        "question_en": "What is the price of X Plus package?",
+        "response": "سعر باقة X Plus هو 50 جنيه.",
+        "expected_answer": "باقة X Plus سعرها 50 جنيه شهرياً",
+        "sources_count": 3,
+        "latency_seconds": 20.55,
+        "topics_found": 3,
+        "total_topics": 3,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "X Plus": true,
+          "50": true,
+          "جنيه": true
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "easy_3",
+        "question_ar": "كيف ألغي الاشتراك في باقة X؟",
+        "question_en": "How do I cancel X package subscription?",
+        "response": "لا أعرف الإجابة بناءً على المعلومات المتاحة.",
+        "expected_answer": "يمكن إلغاء الاشتراك في باقة X عن طريق #21*990*",
+        "sources_count": 3,
+        "latency_seconds": 30.71,
+        "topics_found": 0,
+        "total_topics": 3,
+        "topic_coverage": 0.0,
+        "topic_hits": {
+          "990": false,
+          "21": false,
+          "الغاء": false
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "easy_4",
+        "question_ar": "ما هي هدية Nokia Mesh Wi-Fi؟",
+        "question_en": "What is the Nokia Mesh Wi-Fi gift?",
+        "response": "هدية Nokia Mesh Wi-Fi هي 100 جيجابايت شهريًا لمدة 3 شهور.",
+        "expected_answer": "عند شراء جهاز Nokia Mesh تحصل على 100 جيجابايت هدية شهرياً لمدة 3 شهور",
+        "sources_count": 3,
+        "latency_seconds": 22.9,
+        "topics_found": 5,
+        "total_topics": 5,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "Nokia Mesh": true,
+          "100": true,
+          "جيجا": true,
+          "3": true,
+          "شهور": true
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "easy_5",
+        "question_ar": "ما هو رقم خدمة عملاء WE؟",
+        "question_en": "What is WE customer service number?",
+        "response": "رقم خدمة عملاء WE هو 111.",
+        "expected_answer": "يمكنك الاتصال على 11 من أي رقم WE أو 01550011 من أي رقم آخر",
+        "sources_count": 3,
+        "latency_seconds": 22.12,
+        "topics_found": 1,
+        "total_topics": 3,
+        "topic_coverage": 0.33,
+        "topic_hits": {
+          "11": true,
+          "01550011": false,
+          "اتصال": false
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "easy_6",
+        "question_ar": "ما هي خدمة سلفني من WE؟",
+        "question_en": "What is WE Salefny service?",
+        "response": "لا أعرف الإجابة بناءً على المعلومات المتاحة.",
+        "expected_answer": "خدمة سلفني توفر 40 وحدة صالحة لمدة 30 يوم بسعر 2 جنيه",
+        "sources_count": 3,
+        "latency_seconds": 14.88,
+        "topics_found": 0,
+        "total_topics": 5,
+        "topic_coverage": 0.0,
+        "topic_hits": {
+          "سلفني": false,
+          "Salefny": false,
+          "40": false,
+          "30": false,
+          "2": false
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "easy_7",
+        "question_ar": "كيف أفعل خدمة 5G على موبايل Realme؟",
+        "question_en": "How to activate 5G on Realme phone?",
+        "response": "لتفعيل خدمة 5G على موبايل Realme، اتبع الخطوات التالية:\n\n1.  اذهب إلى \"الإعدادات\".\n2.  اختر \"شبكة المحمول\".\n3.  اختر \"WE\".\n4.  اختر \"نوع الشبكة المفضل\".\n5.  اختر \"5G\".",
+        "expected_answer": "الإعدادات > شبكة المحمول > اختار WE > نوع الشبكة المفضل > اختار 5G",
+        "sources_count": 3,
+        "latency_seconds": 17.7,
+        "topics_found": 3,
+        "total_topics": 4,
+        "topic_coverage": 0.75,
+        "topic_hits": {
+          "5G": true,
+          "Realme": true,
+          "Settings": false,
+          "الإعدادات": true
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "easy_8",
+        "question_ar": "ما هي المواقع المتاحة في باقة X؟",
+        "question_en": "What websites are available in X package?",
+        "response": "لا أعرف الإجابة بناءً على المعلومات المتاحة. السياق يذكر أن باقة X للسوشيال ستجعلك تستمتع بمواقع السوشيال المفضلة لديك، ولكن لا يحدد هذه المواقع بالتحديد.",
+        "expected_answer": "مواقع السوشيال، يوتيوب، والمزيكا",
+        "sources_count": 3,
+        "latency_seconds": 11.47,
+        "topics_found": 1,
+        "total_topics": 3,
+        "topic_coverage": 0.33,
+        "topic_hits": {
+          "سوشيال": true,
+          "يوتيوب": false,
+          "مزيكا": false
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "easy_9",
+        "question_ar": "ما هو كود الاشتراك في باقة الانترنت الأساسية 20 جنيه؟",
+        "question_en": "What is the subscription code for 20 EGP basic internet package?",
+        "response": "لا أعرف الإجابة بناءً على المعلومات المتاحة.",
+        "expected_answer": "يمكن الاشتراك من خلال #20*990*",
+        "sources_count": 3,
+        "latency_seconds": 14.19,
+        "topics_found": 0,
+        "total_topics": 3,
+        "topic_coverage": 0.0,
+        "topic_hits": {
+          "990": false,
+          "20": false,
+          "اشتراك": false
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "easy_10",
+        "question_ar": "ما هي أنواع باقات WE ارضي؟",
+        "question_en": "What are the types of WE Ardy bundles?",
+        "response": "أنواع باقات WE ارضي هي: WE ارضي 25، WE ارضي 40، و WE ارضي 70.",
+        "expected_answer": "WE Ardy 25, WE Ardy 40, WE Ardy 70",
+        "sources_count": 3,
+        "latency_seconds": 13.85,
+        "topics_found": 3,
+        "total_topics": 4,
+        "topic_coverage": 0.75,
+        "topic_hits": {
+          "WE Ardy": false,
+          "25": true,
+          "40": true,
+          "70": true
+        },
+        "query_type": "rag"
+      }
+    ],
+    "intermediate": [
+      {
+        "question_id": "int_1",
+        "question_ar": "ما الفرق بين باقة X وباقة X Plus في السعر والمميزات؟",
+        "question_en": "What is the difference between X and X Plus packages in price and features?",
+        "response": "الفرق بين باقة X وباقة X Plus:\n\n*   **السعر:**\n    *   باقة X: 20 جنيه.\n    *   باقة X Plus: 50 جنيه.\n\n*   **المميزات:**\n    *   باقة X: مخصصة للسوشيال ميديا.\n    *   باقة X Plus: تسمح بالاستمتاع بالفيديوهات على يوتيوب، بالإضافة إلى مواقع أكثر للسوشيال والمزيكا.",
+        "expected_answer": "باقة X سعرها 20 جنيه وباقة X Plus سعرها 50 جنيه. X Plus توفر استخدام أكثر على يوتيوب ومواقع السوشيال والمزيكا",
+        "sources_count": 3,
+        "latency_seconds": 24.63,
+        "topics_found": 5,
+        "total_topics": 5,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "X": true,
+          "X Plus": true,
+          "20": true,
+          "50": true,
+          "يوتيوب": true
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "int_2",
+        "question_ar": "ما هي شروط الاشتراك في باقات X؟",
+        "question_en": "What are the conditions to subscribe to X packages?",
+        "response": "شروط الاشتراك في باقات X هي:\n\n*   أن يكون العميل من عملاء باقات كنترول – كنترول تظبيط – اهلاوي أو عملاء الفاتورة أو خطوط الداتا الحاليين والجدد.\n*   بالنسبة لعملاء 12 قرش، تكون الباقة متاحة كباقة إضافية على باقات الموبايل إنترنت الأساسية (يجب أن تكون الباقة الأساسية لا تزال سارية).",
+        "expected_answer": "يجب أن يكون العميل مشترك في باقة انترنت أساسية أو كنترول أو خط داتا",
+        "sources_count": 3,
+        "latency_seconds": 19.03,
+        "topics_found": 3,
+        "total_topics": 5,
+        "topic_coverage": 0.6,
+        "topic_hits": {
+          "باقة": true,
+          "انترنت": false,
+          "اساسية": false,
+          "كنترول": true,
+          "داتا": true
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "int_3",
+        "question_ar": "ماذا يحدث عند استخدام مواقع غير مشمولة في باقة X؟",
+        "question_en": "What happens when using websites not included in X package?",
+        "response": "لا أعرف الإجابة بناءً على المعلومات المتاحة.",
+        "expected_answer": "سيتم الخصم من الباقة الأساسية وبعد انتهائها سيتم المحاسبة خارج الباقة على حسب نظام الخط",
+        "sources_count": 3,
+        "latency_seconds": 15.91,
+        "topics_found": 0,
+        "total_topics": 5,
+        "topic_coverage": 0.0,
+        "topic_hits": {
+          "خصم": false,
+          "باقة": false,
+          "اساسية": false,
+          "محاسبة": false,
+          "خارج": false
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "int_4",
+        "question_ar": "ما هي إعدادات اليوتيوب المنصوح بها لباقة X؟",
+        "question_en": "What YouTube settings are recommended for X package?",
+        "response": "لا أعرف الإجابة بناءً على المعلومات المتاحة. السياق يذكر أن باقة X Plus تسمح بالاستمتاع بالفيديوهات على يوتيوب، لكنه لا يقدم تفاصيل عن إعدادات يوتيوب الموصى بها لأي من الباقتين.",
+        "expected_answer": "ينصح بضبط إعدادات الفيديو على Auto",
+        "sources_count": 3,
+        "latency_seconds": 11.53,
+        "topics_found": 2,
+        "total_topics": 4,
+        "topic_coverage": 0.5,
+        "topic_hits": {
+          "يوتيوب": true,
+          "Auto": false,
+          "اعدادات": false,
+          "فيديو": true
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "int_5",
+        "question_ar": "ما هي طرق تجديد باقات WE Ardy؟",
+        "question_en": "What are the renewal methods for WE Ardy bundles?",
+        "response": "لا أعرف الإجابة بناءً على المعلومات المتاحة. السياق يتحدث عن تجديد الباقة الأساسية مبكراً، ولكنه لا يذكر طرق تجديد باقات WE Ardy بشكل عام.",
+        "expected_answer": "التجديد المبكر في أي وقت، أو الاشتراك في إضافات Extra",
+        "sources_count": 3,
+        "latency_seconds": 14.36,
+        "topics_found": 2,
+        "total_topics": 4,
+        "topic_coverage": 0.5,
+        "topic_hits": {
+          "تجديد": true,
+          "مبكر": true,
+          "Extra": false,
+          "اضافات": false
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "int_6",
+        "question_ar": "ما هي خدمة Caller ID وFollow Me في WE؟",
+        "question_en": "What are Caller ID and Follow Me services in WE?",
+        "response": "خدمة Caller ID تتيح للعميل معرفة رقم المتصل.\nخدمة Follow Me تتيح للعميل تحويل مكالمات الخط الأرضي الخاص به إلى خط أرضي آخر أو موبايل WE.",
+        "expected_answer": "Caller ID تمكنك من معرفة الرقم المتصل. Follow Me تمكنك من تحويل المكالمات من الخط الأرضي إلى خط آخر",
+        "sources_count": 3,
+        "latency_seconds": 12.76,
+        "topics_found": 4,
+        "total_topics": 4,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "Caller ID": true,
+          "Follow Me": true,
+          "تحويل": true,
+          "مكالمات": true
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "int_7",
+        "question_ar": "ما هي طرق الدفع المتاحة لباقات WE؟",
+        "question_en": "What payment methods are available for WE bundles?",
+        "response": "طرق الدفع المتاحة لباقات WE هي:\n\n*   تطبيق My WE باستخدام بطاقة بنكية.\n*   الموقع الإلكتروني باستخدام بطاقة بنكية.\n*   WE Pay.\n*   جميع فروع WE.\n*   أحد منافذ الدفع الإلكتروني (فوري، مصاري، سداد، بي، ممكن، خدماتي).\n*   Apple Pay.",
+        "expected_answer": "تطبيق MyWE، موقع WE، فروع WE، قنوات الدفع الإلكتروني مثل فوري ومصاري",
+        "sources_count": 3,
+        "latency_seconds": 14.78,
+        "topics_found": 2,
+        "total_topics": 5,
+        "topic_coverage": 0.4,
+        "topic_hits": {
+          "MyWE": false,
+          "فوري": true,
+          "Fawry": false,
+          "فروع": true,
+          "stores": false
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "int_8",
+        "question_ar": "ما هي نسبة الضريبة على باقات WE؟",
+        "question_en": "What is the tax rate on WE bundles?",
+        "response": "لا أعرف الإجابة بناءً على المعلومات المتاحة. السياق يذكر السعر غير شامل الضريبة والسعر شامل ضريبة القيمة المضافة وضريبة الجدول، ولكنه لا يحدد نسبة الضريبة.",
+        "expected_answer": "نسبة الضريبة 14% VAT",
+        "sources_count": 3,
+        "latency_seconds": 12.72,
+        "topics_found": 1,
+        "total_topics": 4,
+        "topic_coverage": 0.25,
+        "topic_hits": {
+          "14": false,
+          "VAT": false,
+          "ضريبة": true,
+          "tax": false
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "int_9",
+        "question_ar": "كم سعر الدقيقة للمكالمات المحلية من الخط الأرضي؟",
+        "question_en": "What is the per-minute rate for local calls from landline?",
+        "response": "لا أعرف الإجابة بناءً على المعلومات المتاحة. السياق يذكر خصم على المكالمات الصادرة للموبايل عند الاشتراك في الباقة الفضية، ولكنه لا يحدد سعر الدقيقة للمكالمات المحلية من الخط الأرضي.",
+        "expected_answer": "3 قروش للدقيقة + 10 قروش رسوم فتح المكالمة",
+        "sources_count": 3,
+        "latency_seconds": 15.0,
+        "topics_found": 1,
+        "total_topics": 5,
+        "topic_coverage": 0.2,
+        "topic_hits": {
+          "3": false,
+          "قروش": false,
+          "دقيقة": true,
+          "10": false,
+          "فتح": false
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "int_10",
+        "question_ar": "ما هي الإضافات Extra المتاحة لباقات WE Ardy؟",
+        "question_en": "What Extra add-ons are available for WE Ardy bundles?",
+        "response": "لا أعرف الإجابة بناءً على المعلومات المتاحة.",
+        "expected_answer": "Extra WE fixed 10, Extra WE fixed 20, Extra WE Mobile 5, Extra Mobile 15",
+        "sources_count": 3,
+        "latency_seconds": 21.98,
+        "topics_found": 0,
+        "total_topics": 5,
+        "topic_coverage": 0.0,
+        "topic_hits": {
+          "Extra": false,
+          "WE fixed": false,
+          "Mobile": false,
+          "10": false,
+          "20": false
+        },
+        "query_type": "rag"
+      }
+    ],
+    "hard": [
+      {
+        "question_id": "hard_1",
+        "question_ar": "لو استهلكت باقة X على موقع غير مدعوم، إيه اللي هيحصل بالضبط؟",
+        "question_en": "If I use X package on an unsupported website, what exactly happens?",
+        "response": "لا أعرف الإجابة بناءً على المعلومات المتاحة. السياق يذكر \"ماذا يحدث عند استخدام الباقة علي المواقع الاخري\" لكنه لا يقدم تفصيلاً للإجابة.",
+        "expected_answer": "سيتم الخصم من الباقة الأساسية أولاً، وبعد انتهاء الباقة الأساسية سيتم المحاسبة خارج الباقة على حسب نظام الخط",
+        "sources_count": 3,
+        "latency_seconds": 17.61,
+        "topics_found": 1,
+        "total_topics": 5,
+        "topic_coverage": 0.2,
+        "topic_hits": {
+          "خصم": false,
+          "باقة": true,
+          "اساسية": false,
+          "خارج": false,
+          "نظام": false
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "hard_2",
+        "question_ar": "إيه الفرق بين كود الاشتراك وكود الإلغاء في باقات X؟",
+        "question_en": "What's the difference between subscription and cancellation codes for X packages?",
+        "response": "لا أعرف الإجابة بناءً على المعلومات المتاحة. السياق لا يذكر أكواد الاشتراك أو الإلغاء لباقات X.",
+        "expected_answer": "كود الاشتراك #20*990* أو #50*990*، كود الإلغاء #21*990* لباقة X و#51*990* لباقة X Plus",
+        "sources_count": 3,
+        "latency_seconds": 11.55,
+        "topics_found": 0,
+        "total_topics": 5,
+        "topic_coverage": 0.0,
+        "topic_hits": {
+          "990": false,
+          "20": false,
+          "50": false,
+          "21": false,
+          "51": false
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "hard_3",
+        "question_ar": "لو عندي خط WE وعايز أفعل 5G على موبايل شاومي، إيه الخطوات؟",
+        "question_en": "If I have a WE line and want to activate 5G on Xiaomi phone, what are the steps?",
+        "response": "لتفعيل 5G على موبايل شاومي الخاص بك، اتبع الخطوات التالية:\n1. اذهب إلى \"الإعدادات\".\n2. اختر \"شبكة المحمول\".\n3. اختر \"WE\".\n4. اختر \"نوع الشبكة المفضل\".\n5. اختر \"5G\".",
+        "expected_answer": "الإعدادات > شبكة المحمول > اختار WE > نوع الشبكة المفضل > اختار 5G",
+        "sources_count": 3,
+        "latency_seconds": 14.69,
+        "topics_found": 3,
+        "total_topics": 5,
+        "topic_coverage": 0.6,
+        "topic_hits": {
+          "5G": true,
+          "شاومي": true,
+          "Xiaomi": false,
+          "اعدادات": false,
+          "شبكة": true
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "hard_4",
+        "question_ar": "كام هتدفع ضريبة لو اشتركت في باقة Extra WE fixed 20؟",
+        "question_en": "How much tax will you pay if you subscribe to Extra WE fixed 20?",
+        "response": "لا أعرف الإجابة بناءً على المعلومات المتاحة. السياق يوضح أن الضريبة هي 14%، ولكنه لا يذكر المبلغ المحدد بالجنيه الذي ستدفعه كضريبة.",
+        "expected_answer": "ضريبة 14% VAT، الرسوم الشهرية شاملة الضريبة تقريباً 23 جنيه",
+        "sources_count": 3,
+        "latency_seconds": 17.89,
+        "topics_found": 1,
+        "total_topics": 5,
+        "topic_coverage": 0.2,
+        "topic_hits": {
+          "14": true,
+          "VAT": false,
+          "23": false,
+          "Extra": false,
+          "fixed": false
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "hard_5",
+        "question_ar": "لو مش مشترك في باقة أساسية، هل أقدر أستفيد من باقات X؟",
+        "question_en": "If I'm not subscribed to a basic package, can I use X packages?",
+        "response": "لا، لا يمكن الاشتراك في هذه الباقات إذا لم يكن العميل مشتركًا في باقة موبايل إنترنت أساسية. باقات X متاحة كباقات إضافية بشرط أن يكون لدى العميل باقات إنترنت أو باقات كنترول – كونترول تظبيط – أهلاوي أو خط داتا.",
+        "expected_answer": "لا، لا يمكن الاستفادة من باقات X إلا إذا كنت مشترك في باقة انترنت أساسية أو كنترول أو خط داتا",
+        "sources_count": 3,
+        "latency_seconds": 19.43,
+        "topics_found": 3,
+        "total_topics": 4,
+        "topic_coverage": 0.75,
+        "topic_hits": {
+          "اساسية": false,
+          "كنترول": true,
+          "داتا": true,
+          "X": true
+        },
+        "query_type": "rag"
+      }
+    ],
+    "ultra_hard": [
+      {
+        "question_id": "ultra_1",
+        "question_ar": "لو اشتريت Nokia Mesh واشتركت في باقة X Plus، كام جيجا هاخد في الشهر الأول؟",
+        "question_en": "If I buy Nokia Mesh and subscribe to X Plus, how many GB will I get in the first month?",
+        "response": "لا أعرف الإجابة بناءً على المعلومات المتاحة. السياق يذكر أن شراء جهاز Nokia Mesh يمنح 100 جيجابايت هدية شهريًا لمدة 3 شهور، ولكن لا يوضح ما إذا كانت هذه الهدية تُضاف إلى باقات أخرى مثل باقة X Plus، أو إذا كانت باقة X Plus نفسها تتضمن جيجابايت معينة.",
+        "expected_answer": "Nokia Mesh يعطي 100 جيجا هدية شهرياً. باقة X Plus توفر انترنت إضافي للسوشيال واليوتيوب. المجموع يعتمد على استخدامك للمواقع المدعومة",
+        "sources_count": 3,
+        "latency_seconds": 10.25,
+        "topics_found": 5,
+        "total_topics": 5,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "Nokia Mesh": true,
+          "100": true,
+          "X Plus": true,
+          "جيجا": true,
+          "هدية": true
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "ultra_2",
+        "question_ar": "لو استخدمت خدمة سلفني مرة واحدة في الشهر، كام وحدة هتاخد وبكام؟",
+        "question_en": "If I use Salefny service once a month, how many units will I get and for how much?",
+        "response": "لا أعرف الإجابة بناءً على المعلومات المتاحة. السياق يذكر خدمة \"سلفني\" ولكنه لا يحدد عدد الوحدات أو تكلفتها.",
+        "expected_answer": "خدمة سلفني توفر 40 وحدة صالحة لمدة 30 يوم بسعر 2 جنيه. يمكن الاشتراك مرة واحدة في الشهر",
+        "sources_count": 3,
+        "latency_seconds": 4.8,
+        "topics_found": 1,
+        "total_topics": 5,
+        "topic_coverage": 0.2,
+        "topic_hits": {
+          "سلفني": true,
+          "40": false,
+          "30": false,
+          "2": false,
+          "مرة": false
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "ultra_3",
+        "question_ar": "لو بتكلم 10 دقايق يومياً من الأرضي لموبايل WE، كام هتدفع في الشهر؟",
+        "question_en": "If I call 10 minutes daily from landline to WE mobile, how much will I pay per month?",
+        "response": "لا أعرف الإجابة بناءً على المعلومات المتاحة، حيث أن السياق يوضح سعر الدقيقة للمكالمات من الخط الأرضي إلى موبايل WE، ولكن لا يحدد عدد الأيام في الشهر أو كيفية حساب التكلفة الشهرية الإجمالية.",
+        "expected_answer": "المكالمة 3 قروش/دقيقة + 10 قروش رسوم فتح. 10 دقايق = 30 قرش + 10 قروش = 40 قرش يومياً. في الشهر: 40 × 30 = 12 جنيه تقريباً",
+        "sources_count": 3,
+        "latency_seconds": 6.04,
+        "topics_found": 1,
+        "total_topics": 5,
+        "topic_coverage": 0.2,
+        "topic_hits": {
+          "3": false,
+          "قروش": false,
+          "دقيقة": true,
+          "10": false,
+          "فتح": false
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "ultra_4",
+        "question_ar": "لو عايز أجدد باقة WE Ardy وخلصت الوحدات، إيه البدائل المتاحة؟",
+        "question_en": "If I want to renew WE Ardy bundle and units are finished, what alternatives are available?",
+        "response": "البدائل المتاحة في حالة استهلاك دقائق الباقة الأساسية هي:\n\n1.  **التجديد المبكر للباقة الأساسية:** يمكنك تجديد باقتك الأساسية مبكرًا قبل تاريخ التجديد، وسيتم تغيير تاريخ التجديد تلقائيًا في نفس اليوم الذي تقوم فيه بالتجديد المبكر.\n2.  **الاشتراك في إحدى باقات إكسترا WE الإضافية:** سواء كانت مرة واحدة أو متجددة، ومدة صلاحية الباقات الإضافية 30 يومًا.",
+        "expected_answer": "1) التجديد المبكر في أي وقت وسيتغير تاريخ التجديد تلقائياً. 2) الاشتراك في إضافات Extra (صالحة 30 يوم وغير قابلة للتجديد)",
+        "sources_count": 3,
+        "latency_seconds": 6.05,
+        "topics_found": 3,
+        "total_topics": 5,
+        "topic_coverage": 0.6,
+        "topic_hits": {
+          "تجديد": true,
+          "مبكر": true,
+          "Extra": false,
+          "30": true,
+          "اضافات": false
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "ultra_5",
+        "question_ar": "لو اشتركت في Extra WE fixed 10 وExtra WE Mobile 5، كام هتدفع شهرياً شامل الضريبة؟",
+        "question_en": "If I subscribe to Extra WE fixed 10 and Extra WE Mobile 5, how much will I pay monthly including tax?",
+        "response": "لا أعرف الإجابة بناءً على المعلومات المتاحة، حيث أن نسبة الضريبة لـ Extra WE Mobile 5 غير واضحة (مكتوب 23 12%).",
+        "expected_answer": "Extra WE fixed 10 = 11.5 جنيه شامل الضريبة، Extra WE Mobile 5 = 6.5 جنيه شامل الضريبة. المجموع = 18 جنيه تقريباً",
+        "sources_count": 3,
+        "latency_seconds": 8.48,
+        "topics_found": 2,
+        "total_topics": 5,
+        "topic_coverage": 0.4,
+        "topic_hits": {
+          "Extra": true,
+          "11": false,
+          "6": false,
+          "VAT": false,
+          "ضريبة": true
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "ultra_6",
+        "question_ar": "إيه الفرق في السعر الشهري بين WE Ardy 25 وWE Ardy 70؟",
+        "question_en": "What's the monthly price difference between WE Ardy 25 and WE Ardy 70?",
+        "response": "الفرق في السعر الشهري بين WE Ardy 25 وWE Ardy 70 هو 45 جنيه مصري (70 - 25).",
+        "expected_answer": "WE Ardy 25 أرخص من WE Ardy 70 لكن يوفر دقائق وانترنت أقل. الفرق في السعر والمميزات يعتمد على الاستخدام",
+        "sources_count": 3,
+        "latency_seconds": 34.48,
+        "topics_found": 3,
+        "total_topics": 5,
+        "topic_coverage": 0.6,
+        "topic_hits": {
+          "WE Ardy": true,
+          "25": true,
+          "70": true,
+          "دقائق": false,
+          "انترنت": false
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "ultra_7",
+        "question_ar": "لو عندي iPhone 17 Pro Max وعايز أفعل 5G على شبكة WE، إيه المطلوب؟",
+        "question_en": "If I have iPhone 17 Pro Max and want to activate 5G on WE network, what's required?",
+        "response": "لتفعيل 5G على iPhone (بما في ذلك iPhone 17 Pro Max)، اتبع الخطوات التالية:\n\n1.  اذهب إلى \"الإعدادات\".\n2.  اختر \"خلوي\".\n3.  اختار \"WE\".\n4.  اختر \"صوت وبيانات\".\n5.  اختار \"5G تشغيل\" أو \"5G تلقائي\".",
+        "expected_answer": "معظم أجهزة 5G تدعم الخدمة تلقائياً. للآيفون: الإعدادات > شبكة الموبايل > خيارات البيانات > الصوت والبيانات > اختار 5G",
+        "sources_count": 3,
+        "latency_seconds": 39.44,
+        "topics_found": 3,
+        "total_topics": 5,
+        "topic_coverage": 0.6,
+        "topic_hits": {
+          "5G": true,
+          "iPhone": true,
+          "اعدادات": false,
+          "شبكة": false,
+          "بيانات": true
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "ultra_8",
+        "question_ar": "لو استخدمت باقة X على يوتيوب بإعدادات HD بدل Auto، إيه اللي هيحصل؟",
+        "question_en": "If I use X package on YouTube with HD settings instead of Auto, what will happen?",
+        "response": "لا أعرف الإجابة بناءً على المعلومات المتاحة. السياق يذكر أنه \"لمشاهدة أفضل على موقع 'يوتيوب' ينصح بضبط إعداد الفيديو على 'Auto'\"، ولكنه لا يوضح ما سيحدث إذا تم استخدام إعدادات HD بدلاً من Auto مع باقة X.",
+        "expected_answer": "ينصح بضبط إعدادات الفيديو على Auto للاستفادة الأفضل. استخدام HD قد يستهلك الباقة أسرع",
+        "sources_count": 3,
+        "latency_seconds": 25.42,
+        "topics_found": 3,
+        "total_topics": 4,
+        "topic_coverage": 0.75,
+        "topic_hits": {
+          "يوتيوب": true,
+          "Auto": true,
+          "HD": true,
+          "اعدادات": false
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "ultra_9",
+        "question_ar": "كام نوع راوتر متاح في WE ومين الشركة المصنعة؟",
+        "question_en": "How many router types are available at WE and who is the manufacturer?",
+        "response": "لا أعرف الإجابة بناءً على المعلومات المتاحة.",
+        "expected_answer": "WE توفر عدة أنواع راوتر منها AC1300 Whole Home Mesh Wi-Fi System وNokia Mesh",
+        "sources_count": 3,
+        "latency_seconds": 16.62,
+        "topics_found": 0,
+        "total_topics": 5,
+        "topic_coverage": 0.0,
+        "topic_hits": {
+          "راوتر": false,
+          "router": false,
+          "Mesh": false,
+          "AC1300": false,
+          "Nokia": false
+        },
+        "query_type": "rag"
+      },
+      {
+        "question_id": "ultra_10",
+        "question_ar": "لو دفعت فاتورة WE عن طريق فوري، هل هيتم خصم ضريبة إضافية؟",
+        "question_en": "If I pay WE bill through Fawry, will additional tax be deducted?",
+        "response": "لا أعرف الإجابة بناءً على المعلومات المتاحة.",
+        "expected_answer": "سيتم خصم 14% VAT من قيمة الشحن. الدفع متاح عن طريق فوري ومصاري وبي وغيرها",
+        "sources_count": 3,
+        "latency_seconds": 15.07,
+        "topics_found": 0,
+        "total_topics": 5,
+        "topic_coverage": 0.0,
+        "topic_hits": {
+          "14": false,
+          "VAT": false,
+          "فوري": false,
+          "Fawry": false,
+          "شحن": false
+        },
+        "query_type": "rag"
+      }
+    ]
+  }
+}

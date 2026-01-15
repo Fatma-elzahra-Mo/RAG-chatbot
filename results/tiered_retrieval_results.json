@@ -1,0 +1,282 @@
+{
+  "metadata": {
+    "timestamp": "2026-01-11T17:29:01.042588",
+    "mode": "retrieval_only",
+    "llm_provider": "openrouter",
+    "total_questions": 15
+  },
+  "results": {
+    "easy": [
+      {
+        "question_id": "easy_1",
+        "question_ar": "ما هو رقم خدمة عملاء الجهاز القومي لتنظيم الاتصالات (NTRA) لتقديم الشكاوى؟",
+        "question_en": "What is the NTRA customer service number for submitting complaints?",
+        "docs_retrieved": 10,
+        "top_score": 0.689,
+        "topics_found": 0,
+        "total_topics": 4,
+        "topic_coverage": 0.0,
+        "topic_hits": {
+          "155": false,
+          "NTRA": false,
+          "شكاوى": false,
+          "خدمة العملاء": false
+        },
+        "top_doc_preview": "هلا انا مساعدك الالي كيف يمكنني مساعدتك هيا نتحدث تواصل معنا"
+      },
+      {
+        "question_id": "easy_2",
+        "question_ar": "ما هو كود الاشتراك في باقات WE Mix للموبايل؟",
+        "question_en": "What is the subscription code for WE Mix mobile packages?",
+        "docs_retrieved": 10,
+        "top_score": 0.7031,
+        "topics_found": 2,
+        "total_topics": 4,
+        "topic_coverage": 0.5,
+        "topic_hits": {
+          "*100#": false,
+          "WE Mix": false,
+          "اشتراك": true,
+          "كود": true
+        },
+        "top_doc_preview": "سهل تجربة اشتراك وهتدفع مرة واحدة في السنة بتخفيض سوف تحصل علي سعة الباقة سنوية بشكل كامل عند الاشتراك في باقة WE SPACE السنوية ويمكنك استخدام سعة الباقة طول السنة"
+      },
+      {
+        "question_id": "easy_3",
+        "question_ar": "ما هي الخدمات المضافة المتاحة مع باقات WE للموبايل؟",
+        "question_en": "What are the bundle services available with WE mobile packages?",
+        "docs_retrieved": 10,
+        "top_score": 0.8326,
+        "topics_found": 1,
+        "total_topics": 4,
+        "topic_coverage": 0.25,
+        "topic_hits": {
+          "Voice Mail": false,
+          "Missed Call Keeper": false,
+          "SMS Alert": false,
+          "خدمات": true
+        },
+        "top_doc_preview": "لتالية في حالة استهلاك دقائق الباقه الاساسيه:** 1 التجديد المبكر للباقه الاساسيه: يمكنك تجديد باقتك الاساسيه مبكرا قبل تاريخ التجديد وسيتم تغيير تاريخ التجديد تلقائيا في نفس اليوم الذي تقوم فيه بالتجد"
+      },
+      {
+        "question_id": "easy_4",
+        "question_ar": "ما هو رقم خدمة الاستعلام عن أرقام التليفونات؟",
+        "question_en": "What is the directory service number for phone number inquiries?",
+        "docs_retrieved": 10,
+        "top_score": 0.9957,
+        "topics_found": 0,
+        "total_topics": 3,
+        "topic_coverage": 0.0,
+        "topic_hits": {
+          "140": false,
+          "دليل التليفونات": false,
+          "استعلام": false
+        },
+        "top_doc_preview": "هلا انا مساعدك الالي كيف يمكنني مساعدتك هيا نتحدث تواصل معنا"
+      },
+      {
+        "question_id": "easy_5",
+        "question_ar": "ما هي أنواع خدمات الإنترنت المنزلي التي تقدمها WE؟",
+        "question_en": "What types of home internet services does WE offer?",
+        "docs_retrieved": 10,
+        "top_score": 0.8307,
+        "topics_found": 0,
+        "total_topics": 5,
+        "topic_coverage": 0.0,
+        "topic_hits": {
+          "ADSL": false,
+          "VDSL": false,
+          "FTTH": false,
+          "فايبر": false,
+          "انترنت منزلي": false
+        },
+        "top_doc_preview": "لتالية في حالة استهلاك دقائق الباقه الاساسيه:** 1 التجديد المبكر للباقه الاساسيه: يمكنك تجديد باقتك الاساسيه مبكرا قبل تاريخ التجديد وسيتم تغيير تاريخ التجديد تلقائيا في نفس اليوم الذي تقوم فيه بالتجد"
+      }
+    ],
+    "intermediate": [
+      {
+        "question_id": "int_1",
+        "question_ar": "ما هو الفرق في سعة الإنترنت المنزلي بين باقة Mix 215 وباقة Mix 310؟",
+        "question_en": "What is the difference in home internet quota between Mix 215 and Mix 310 packages?",
+        "docs_retrieved": 10,
+        "top_score": 0.6277,
+        "topics_found": 0,
+        "total_topics": 6,
+        "topic_coverage": 0.0,
+        "topic_hits": {
+          "Mix 215": false,
+          "Mix 310": false,
+          "إنترنت منزلي": false,
+          "جيجابايت": false,
+          "150": false,
+          "190": false
+        },
+        "top_doc_preview": "هلا انا مساعدك الالي كيف يمكنني مساعدتك هيا نتحدث تواصل معنا"
+      },
+      {
+        "question_id": "int_2",
+        "question_ar": "كم عدد الكيكس التي أحصل عليها في باقة Super Kix 85 وما هو كود الاشتراك؟",
+        "question_en": "How many Kix do I get in the Super Kix 85 package and what is the subscription code?",
+        "docs_retrieved": 10,
+        "top_score": 0.61,
+        "topics_found": 1,
+        "total_topics": 4,
+        "topic_coverage": 0.25,
+        "topic_hits": {
+          "Super Kix 85": false,
+          "4200": false,
+          "كيكس": true,
+          "*707*85#": false
+        },
+        "top_doc_preview": "هلا انا مساعدك الالي كيف يمكنني مساعدتك هيا نتحدث تواصل معنا"
+      },
+      {
+        "question_id": "int_3",
+        "question_ar": "ما هي المميزات الإضافية التي تحصل عليها في باقات Super Kix الأعلى مقارنة بالباقات الأقل؟",
+        "question_en": "What additional features do you get in higher Super Kix packages compared to lower packages?",
+        "docs_retrieved": 10,
+        "top_score": 0.62,
+        "topics_found": 0,
+        "total_topics": 4,
+        "topic_coverage": 0.0,
+        "topic_hits": {
+          "Super Kix": false,
+          "أفراد عائلة": false,
+          "قسائم": false,
+          "تجديدات": false
+        },
+        "top_doc_preview": "هلا انا مساعدك الالي كيف يمكنني مساعدتك هيا نتحدث تواصل معنا"
+      },
+      {
+        "question_id": "int_4",
+        "question_ar": "ما هو الكود المستخدم للاستعلام عن الرصيد في خطوط WE؟",
+        "question_en": "What is the code used to check balance on WE lines?",
+        "docs_retrieved": 10,
+        "top_score": 0.8358,
+        "topics_found": 2,
+        "total_topics": 4,
+        "topic_coverage": 0.5,
+        "topic_hits": {
+          "رصيد": true,
+          "balance": false,
+          "#550*": false,
+          "استعلام": true
+        },
+        "top_doc_preview": "لتالية في حالة استهلاك دقائق الباقه الاساسيه:** 1 التجديد المبكر للباقه الاساسيه: يمكنك تجديد باقتك الاساسيه مبكرا قبل تاريخ التجديد وسيتم تغيير تاريخ التجديد تلقائيا في نفس اليوم الذي تقوم فيه بالتجد"
+      },
+      {
+        "question_id": "int_5",
+        "question_ar": "ما هي التطبيقات المجانية المضمنة في باقات Super Kix؟",
+        "question_en": "What free apps are included in Super Kix packages?",
+        "docs_retrieved": 10,
+        "top_score": 0.5871,
+        "topics_found": 0,
+        "total_topics": 5,
+        "topic_coverage": 0.0,
+        "topic_hits": {
+          "فيسبوك": false,
+          "Facebook": false,
+          "إنستجرام": false,
+          "واتساب": false,
+          "WhatsApp": false
+        },
+        "top_doc_preview": "هلا انا مساعدك الالي كيف يمكنني مساعدتك هيا نتحدث تواصل معنا"
+      }
+    ],
+    "ultra_hard": [
+      {
+        "question_id": "hard_1",
+        "question_ar": "لو بستخدم 200 ميجابايت انترنت يوميا على الموبايل وبكلم 50 دقيقة يوميا لشبكات تانية، اي باقة Super Kix هتكون مناسبة ليا شهريا؟",
+        "question_en": "If I use 200 MB of mobile internet daily and call 50 minutes daily to other networks, which Super Kix package would be suitable for me monthly?",
+        "docs_retrieved": 10,
+        "top_score": 0.5994,
+        "topics_found": 2,
+        "total_topics": 5,
+        "topic_coverage": 0.4,
+        "topic_hits": {
+          "Super Kix": false,
+          "باقات": true,
+          "دقائق": false,
+          "انترنت": true,
+          "Mix 310": false
+        },
+        "top_doc_preview": "WE Space Super ] ] ] ## اقوي انترنت في مصر سرعات اعلي باقات اكبر ومحتوي ترفيهي مجاني ## باقات الشحن الاضافية تفاصيل اكتر ## طرق دفع متعددة تفاصيل اكتر ## خدمة شامل من فيزيتا تفاصيل اكتر ## باقات ال Ga"
+      },
+      {
+        "question_id": "hard_2",
+        "question_ar": "ايه الفرق في عدد الرسائل النصية اللي هقدر ابعتها لشبكات تانية بين باقة Mix 215 وباقة Mix 310؟",
+        "question_en": "What is the difference in SMS count I can send to other networks between Mix 215 and Mix 310 packages?",
+        "docs_retrieved": 10,
+        "top_score": 0.6445,
+        "topics_found": 1,
+        "total_topics": 5,
+        "topic_coverage": 0.2,
+        "topic_hits": {
+          "Mix": false,
+          "SMS": false,
+          "رسائل": false,
+          "شبكات تانية": false,
+          "50": true
+        },
+        "top_doc_preview": "هلا انا مساعدك الالي كيف يمكنني مساعدتك هيا نتحدث تواصل معنا"
+      },
+      {
+        "question_id": "hard_3",
+        "question_ar": "لو اشتركت في عرض Nokia Mesh Wi-Fi وفي نفس الوقت سجلت على تطبيق MyWE لأول مرة، كام جيجا هاخدها هدية في اول 3 شهور؟",
+        "question_en": "If I subscribe to the Nokia Mesh Wi-Fi offer and register on MyWE app for the first time, how many GB will I receive as a gift in the first 3 months?",
+        "docs_retrieved": 10,
+        "top_score": 0.7401,
+        "topics_found": 6,
+        "total_topics": 7,
+        "topic_coverage": 0.86,
+        "topic_hits": {
+          "Nokia Mesh": true,
+          "MyWE": true,
+          "هدية": true,
+          "جيجا": true,
+          "100": true,
+          "5": true,
+          "305": false
+        },
+        "top_doc_preview": "عروض WE انترنت ] اشتري جهاز Nokia Mesh وليك 100 جيجابايت هدية شهريا لمدة 3 شهور ] مع WE Life اتفرج علي ماتشات كاس الامم الافريقية علي beIN هدية ] استمتع بجهاز IPTV بافضل سعر و كمان شهر beIN هدية ] لكل"
+      },
+      {
+        "question_id": "hard_4",
+        "question_ar": "ايه كود الاشتراك في باقة Super Kix 45 وكام وحدة Kix هتاخدها؟ ولو حولت كل الـ Kix لدقائق لشبكة WE، كام ساعة مكالمات هتقدر تعملها؟",
+        "question_en": "What is the subscription code for Super Kix 45 and how many Kix units will you get? If you convert all Kix to WE network minutes, how many hours of calls can you make?",
+        "docs_retrieved": 10,
+        "top_score": 0.6416,
+        "topics_found": 1,
+        "total_topics": 5,
+        "topic_coverage": 0.2,
+        "topic_hits": {
+          "Super Kix 45": false,
+          "*707*45#": false,
+          "1800": false,
+          "Kix": true,
+          "30 ساعة": false
+        },
+        "top_doc_preview": "WE Space Super ] ] ] ## اقوي انترنت في مصر سرعات اعلي باقات اكبر ومحتوي ترفيهي مجاني ## باقات الشحن الاضافية تفاصيل اكتر ## طرق دفع متعددة تفاصيل اكتر ## خدمة شامل من فيزيتا تفاصيل اكتر ## باقات ال Ga"
+      },
+      {
+        "question_id": "hard_5",
+        "question_ar": "لو عميل جديد في WE Space واشتركت في باقة شهرية، كام شهر هستفيد من ضعف الكوتا؟ ولو اشتركت في الباقة السنوية بدل الشهرية، ايه الهدية اللي هاخدها؟",
+        "question_en": "If I'm a new WE Space customer and subscribe to a monthly package, how many months will I benefit from double quota? And for yearly packages, what gift will I receive?",
+        "docs_retrieved": 10,
+        "top_score": 0.9347,
+        "topics_found": 4,
+        "total_topics": 6,
+        "topic_coverage": 0.67,
+        "topic_hits": {
+          "WE Space": true,
+          "عميل جديد": false,
+          "ضعف": false,
+          "3 شهور": true,
+          "راوتر": true,
+          "10 شهور": true
+        },
+        "top_doc_preview": "سهل تجربة اشتراك وهتدفع مرة واحدة في السنة بتخفيض سوف تحصل علي سعة الباقة سنوية بشكل كامل عند الاشتراك في باقة WE SPACE السنوية ويمكنك استخدام سعة الباقة طول السنة"
+      }
+    ]
+  }
+}

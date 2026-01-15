@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-01-12T02:26:56.251110",
+  "pages_scraped": 20,
+  "chunks_created": null,
+  "pages": [
+    {
+      "url": "https://www.te.eg/wps/portal/te/Personal/Mobile/prepaid-plans",
+      "title": "WE Mobile Packages",
+      "length": 1405
+    },
+    {
+      "url": "https://www.te.eg/wps/portal/te/Personal/Mobile/Control-WE-MIX",
+      "title": "Control Plans \"WE MIX\"",
+      "length": 1428
+    },
+    {
+      "url": "https://www.te.eg/wps/portal/te/Personal/Mobile/SuperKix",
+      "title": "Super Kix",
+      "length": 3840
+    },
+    {
+      "url": "https://www.te.eg/wps/portal/te/Personal/Mobile/Control-Tazbeet",
+      "title": "Control Plans \"Tazbeet\"",
+      "length": 1921
+    },
+    {
+      "url": "https://www.te.eg/wps/portal/te/Personal/Mobile/Control-WE-Club",
+      "title": "WE Club",
+      "length": 1994
+    },
+    {
+      "url": "https://www.te.eg/wps/portal/te/Personal/Mobile/Daily_packages",
+      "title": "Daily Packages",
+      "length": 926
+    },
+    {
+      "url": "https://www.te.eg/wps/portal/te/Personal/Mobile/Nitro-mobile-internet",
+      "title": "Nitro Mobile Internet",
+      "length": 2311
+    },
+    {
+      "url": "https://www.te.eg/wps/portal/te/Personal/Mobile/WE-Gold",
+      "title": "WE Gold",
+      "length": 22383
+    },
+    {
+      "url": "https://www.te.eg/wps/portal/te/Personal/Mobile/Balance-Services",
+      "title": "Balance Services",
+      "length": 1125
+    },
+    {
+      "url": "https://www.te.eg/wps/portal/te/Personal/Mobile/International-Roaming",
+      "title": "International Roaming",
+      "length": 1210
+    },
+    {
+      "url": "https://www.te.eg/wps/portal/te/Personal/Internet",
+      "title": "Login",
+      "length": 221
+    },
+    {
+      "url": "https://www.te.eg/wps/portal/te/Personal/Internet/Home-Internet",
+      "title": "Login",
+      "length": 221
+    },
+    {
+      "url": "https://www.te.eg/wps/portal/te/Personal/Internet/Fixed-Bundles",
+      "title": "Login",
+      "length": 221
+    },
+    {
+      "url": "https://www.te.eg/wps/portal/te/Personal/Internet/Packages",
+      "title": "Login",
+      "length": 221
+    },
+    {
+      "url": "https://www.te.eg/wps/portal/te/Personal/WELandline",
+      "title": "WE Landline",
+      "length": 616
+    },
+    {
+      "url": "https://www.te.eg/wps/portal/te/Personal/WELandline/WEArdyPostpaid",
+      "title": "WE Ardy Postpaid",
+      "length": 9968
+    },
+    {
+      "url": "https://www.te.eg/wps/portal/te/Personal/WELandline/WEArdyPrepaid",
+      "title": "WE Ardy Prepaid",
+      "length": 12448
+    },
+    {
+      "url": "https://www.te.eg/wps/portal/te/Personal/Devices",
+      "title": "Devices",
+      "length": 3869
+    },
+    {
+      "url": "https://www.te.eg/wps/portal/te/Personal/Devices/Routers",
+      "title": "Routers",
+      "length": 1816
+    },
+    {
+      "url": "https://www.te.eg/wps/portal/te/Personal/Other-Services",
+      "title": "Telecom Egypt Home ",
+      "length": 1081
+    }
+  ]
+}

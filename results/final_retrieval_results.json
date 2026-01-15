@@ -1,0 +1,626 @@
+{
+  "metadata": {
+    "timestamp": "2026-01-11T18:57:55.060724",
+    "mode": "retrieval_only",
+    "llm_provider": "openrouter",
+    "total_questions": 35
+  },
+  "results": {
+    "easy": [
+      {
+        "question_id": "easy_1",
+        "question_ar": "ما هو سعر باقة WE Mix 215؟",
+        "question_en": "What is the price of WE Mix 215 package?",
+        "docs_retrieved": 10,
+        "top_score": 0.6507,
+        "topics_found": 3,
+        "total_topics": 3,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "WE Mix": true,
+          "215": true,
+          "جنيه": true
+        },
+        "top_doc_preview": "باقة WE Mix 215 - ويي ميكس 215\nالسعر: 215 جنيه مصري شهريا\nالصلاحية: 30 يوم\nكود الاشتراك: *100#\n\nالمحتويات:\n- موبايل: 3,500 ميجابايت و 1,500 دقيقة و 250 دقيقة جروب\n- انترنت منزلي: 150 جيجابايت\n- رسائل "
+      },
+      {
+        "question_id": "easy_2",
+        "question_ar": "ما هو سعر باقة Super Kix 25؟",
+        "question_en": "What is the price of Super Kix 25 package?",
+        "docs_retrieved": 10,
+        "top_score": 0.8125,
+        "topics_found": 3,
+        "total_topics": 3,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "Super Kix": true,
+          "25": true,
+          "جنيه": true
+        },
+        "top_doc_preview": "باقة سوبر كيكس 25 - Super Kix 25\nالسعر: 25 جنيه مصري شهريا\nالصلاحية: شهر\nكود الاشتراك: *707*25#\n\nالمحتويات:\n- 750 كيكس\n\nتفاصيل الاستخدام:\n- 1 كيكس = 1 دقيقة لشبكة WE (موبايل او ارضي)\n- 1 كيكس = 1 دقيق"
+      },
+      {
+        "question_id": "easy_3",
+        "question_ar": "ما هو كود الاشتراك في باقة WE Mix؟",
+        "question_en": "What is the subscription code for WE Mix?",
+        "docs_retrieved": 10,
+        "top_score": 0.6965,
+        "topics_found": 1,
+        "total_topics": 3,
+        "topic_coverage": 0.33,
+        "topic_hits": {
+          "*100#": false,
+          "WE Mix": false,
+          "اشتراك": true
+        },
+        "top_doc_preview": "سهل تجربة اشتراك وهتدفع مرة واحدة في السنة بتخفيض سوف تحصل علي سعة الباقة سنوية بشكل كامل عند الاشتراك في باقة WE SPACE السنوية ويمكنك استخدام سعة الباقة طول السنة"
+      },
+      {
+        "question_id": "easy_4",
+        "question_ar": "كم جيجابايت انترنت منزلي في باقة WE Mix 215؟",
+        "question_en": "How many GB of home internet in WE Mix 215?",
+        "docs_retrieved": 10,
+        "top_score": 0.6518,
+        "topics_found": 4,
+        "total_topics": 4,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "150": true,
+          "جيجابايت": true,
+          "انترنت": true,
+          "منزلي": true
+        },
+        "top_doc_preview": "باقة WE Mix 215 - ويي ميكس 215\nالسعر: 215 جنيه مصري شهريا\nالصلاحية: 30 يوم\nكود الاشتراك: *100#\n\nالمحتويات:\n- موبايل: 3,500 ميجابايت و 1,500 دقيقة و 250 دقيقة جروب\n- انترنت منزلي: 150 جيجابايت\n- رسائل "
+      },
+      {
+        "question_id": "easy_5",
+        "question_ar": "ما هي خدمة سلفني من WE؟",
+        "question_en": "What is WE Salefny service?",
+        "docs_retrieved": 10,
+        "top_score": 0.8075,
+        "topics_found": 2,
+        "total_topics": 3,
+        "topic_coverage": 0.67,
+        "topic_hits": {
+          "سلفني": false,
+          "رصيد": true,
+          "WE": true
+        },
+        "top_doc_preview": "لتالية في حالة استهلاك دقائق الباقه الاساسيه:** 1 التجديد المبكر للباقه الاساسيه: يمكنك تجديد باقتك الاساسيه مبكرا قبل تاريخ التجديد وسيتم تغيير تاريخ التجديد تلقائيا في نفس اليوم الذي تقوم فيه بالتجد"
+      },
+      {
+        "question_id": "easy_6",
+        "question_ar": "كيف أفعل خدمة 5G على موبايل Realme؟",
+        "question_en": "How to activate 5G on Realme phone?",
+        "docs_retrieved": 10,
+        "top_score": 0.6449,
+        "topics_found": 3,
+        "total_topics": 3,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "5G": true,
+          "Realme": true,
+          "الإعدادات": true
+        },
+        "top_doc_preview": "\nدليل تفعيل 5G - وي مصر\n\nازاي تفعل 5G على موبايلك:\n\nمعظم أجهزة 5G بتدعم الخدمة تلقائياً. لكن بعض الأجهزة محتاجة إعداد يدوي كالتالي:\n\nأبل (آيفون):\n- الإعدادات > خلوي > اختار \"WE\" > صوت وبيانات > اختار "
+      },
+      {
+        "question_id": "easy_7",
+        "question_ar": "ما هو كود الاشتراك في باقة Super Kix 45؟",
+        "question_en": "What is the subscription code for Super Kix 45?",
+        "docs_retrieved": 10,
+        "top_score": 0.8265,
+        "topics_found": 3,
+        "total_topics": 3,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "*707*45#": true,
+          "Super Kix": true,
+          "45": true
+        },
+        "top_doc_preview": "باقة سوبر كيكس 45 - Super Kix 45\nالسعر: 45 جنيه مصري شهريا\nالصلاحية: شهر\nكود الاشتراك: *707*45#\n\nالمحتويات:\n- 1,800 كيكس\n\nتفاصيل الاستخدام:\n- 1 كيكس = 1 دقيقة لشبكة WE (موبايل او ارضي)\n- 1 كيكس = 1 دق"
+      },
+      {
+        "question_id": "easy_8",
+        "question_ar": "كم دقيقة في باقة WE Mix 310؟",
+        "question_en": "How many minutes in WE Mix 310 package?",
+        "docs_retrieved": 10,
+        "top_score": 0.6811,
+        "topics_found": 2,
+        "total_topics": 3,
+        "topic_coverage": 0.67,
+        "topic_hits": {
+          "WE Mix 310": true,
+          "2000": false,
+          "دقيقة": true
+        },
+        "top_doc_preview": "انظمة التليفون المنزلي WE ارضي الفاتوره الشهريه | | | | | | -- | -- | -- | -- | | **باقات WE ارضي** | **WE ارضي 25** | **WE ارضي 40** | **WE ارضي 70** | | **الدقائق المتاحه بالباقه / شهر** | 120 دقيقه"
+      },
+      {
+        "question_id": "easy_9",
+        "question_ar": "كم كيكس في باقة Super Kix 60؟",
+        "question_en": "How many Kixs in Super Kix 60 package?",
+        "docs_retrieved": 10,
+        "top_score": 0.8178,
+        "topics_found": 2,
+        "total_topics": 3,
+        "topic_coverage": 0.67,
+        "topic_hits": {
+          "Super Kix 60": true,
+          "2800": false,
+          "كيكس": true
+        },
+        "top_doc_preview": "باقة سوبر كيكس 60 - Super Kix 60\nالسعر: 60 جنيه مصري شهريا\nالصلاحية: شهر\nكود الاشتراك: *707*60#\n\nالمحتويات:\n- 2,800 كيكس\n- 2 افراد عائلة اضافيين\n- 1 كيكس = 2 دقيقة لافراد العائلة\n\nتفاصيل الاستخدام:\n- "
+      },
+      {
+        "question_id": "easy_10",
+        "question_ar": "ما هي صلاحية باقات Super Kix؟",
+        "question_en": "What is the validity of Super Kix packages?",
+        "docs_retrieved": 10,
+        "top_score": 0.7279,
+        "topics_found": 3,
+        "total_topics": 3,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "Super Kix": true,
+          "شهر": true,
+          "صلاحية": true
+        },
+        "top_doc_preview": "باقة سوبر كيكس 25 - Super Kix 25\nالسعر: 25 جنيه مصري شهريا\nالصلاحية: شهر\nكود الاشتراك: *707*25#\n\nالمحتويات:\n- 750 كيكس\n\nتفاصيل الاستخدام:\n- 1 كيكس = 1 دقيقة لشبكة WE (موبايل او ارضي)\n- 1 كيكس = 1 دقيق"
+      }
+    ],
+    "intermediate": [
+      {
+        "question_id": "int_1",
+        "question_ar": "ما الفرق بين باقة WE Mix 215 وباقة WE Mix 310 في السعر والانترنت؟",
+        "question_en": "What is the difference between WE Mix 215 and WE Mix 310 in price and internet?",
+        "docs_retrieved": 10,
+        "top_score": 0.6781,
+        "topics_found": 5,
+        "total_topics": 5,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "WE Mix 215": true,
+          "WE Mix 310": true,
+          "215": true,
+          "310": true,
+          "جيجابايت": true
+        },
+        "top_doc_preview": "انظمة التليفون المنزلي WE ارضي الفاتوره الشهريه | | | | | | -- | -- | -- | -- | | **باقات WE ارضي** | **WE ارضي 25** | **WE ارضي 40** | **WE ارضي 70** | | **الدقائق المتاحه بالباقه / شهر** | 120 دقيقه"
+      },
+      {
+        "question_id": "int_2",
+        "question_ar": "ما هي مميزات باقة Super Kix 60 مقارنة بـ Super Kix 45؟",
+        "question_en": "What are the features of Super Kix 60 compared to Super Kix 45?",
+        "docs_retrieved": 10,
+        "top_score": 0.7807,
+        "topics_found": 5,
+        "total_topics": 5,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "Super Kix": true,
+          "60": true,
+          "45": true,
+          "كيكس": true,
+          "عائلة": true
+        },
+        "top_doc_preview": "باقة سوبر كيكس 45 - Super Kix 45\nالسعر: 45 جنيه مصري شهريا\nالصلاحية: شهر\nكود الاشتراك: *707*45#\n\nالمحتويات:\n- 1,800 كيكس\n\nتفاصيل الاستخدام:\n- 1 كيكس = 1 دقيقة لشبكة WE (موبايل او ارضي)\n- 1 كيكس = 1 دق"
+      },
+      {
+        "question_id": "int_3",
+        "question_ar": "ماذا يمثل كل كيكس في باقات Super Kix؟",
+        "question_en": "What does each Kix represent in Super Kix packages?",
+        "docs_retrieved": 10,
+        "top_score": 0.7379,
+        "topics_found": 4,
+        "total_topics": 4,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "كيكس": true,
+          "دقيقة": true,
+          "WE": true,
+          "شبكة": true
+        },
+        "top_doc_preview": "باقة سوبر كيكس 25 - Super Kix 25\nالسعر: 25 جنيه مصري شهريا\nالصلاحية: شهر\nكود الاشتراك: *707*25#\n\nالمحتويات:\n- 750 كيكس\n\nتفاصيل الاستخدام:\n- 1 كيكس = 1 دقيقة لشبكة WE (موبايل او ارضي)\n- 1 كيكس = 1 دقيق"
+      },
+      {
+        "question_id": "int_4",
+        "question_ar": "ما هي التطبيقات المجانية في باقات Super Kix؟",
+        "question_en": "What are the free apps included in Super Kix packages?",
+        "docs_retrieved": 10,
+        "top_score": 0.7379,
+        "topics_found": 4,
+        "total_topics": 4,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "فيسبوك": true,
+          "انستجرام": true,
+          "واتساب": true,
+          "Super Kix": true
+        },
+        "top_doc_preview": "باقة سوبر كيكس 25 - Super Kix 25\nالسعر: 25 جنيه مصري شهريا\nالصلاحية: شهر\nكود الاشتراك: *707*25#\n\nالمحتويات:\n- 750 كيكس\n\nتفاصيل الاستخدام:\n- 1 كيكس = 1 دقيقة لشبكة WE (موبايل او ارضي)\n- 1 كيكس = 1 دقيق"
+      },
+      {
+        "question_id": "int_5",
+        "question_ar": "كم سعر باقة الانترنت الاضافية 50 جيجابايت لـ WE Mix؟",
+        "question_en": "What is the price of 50GB additional internet for WE Mix?",
+        "docs_retrieved": 10,
+        "top_score": 0.6548,
+        "topics_found": 5,
+        "total_topics": 5,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "50": true,
+          "جيجابايت": true,
+          "80": true,
+          "جنيه": true,
+          "اضافية": true
+        },
+        "top_doc_preview": "انظمة التليفون المنزلي WE ارضي الفاتوره الشهريه | | | | | | -- | -- | -- | -- | | **باقات WE ارضي** | **WE ارضي 25** | **WE ارضي 40** | **WE ارضي 70** | | **الدقائق المتاحه بالباقه / شهر** | 120 دقيقه"
+      },
+      {
+        "question_id": "int_6",
+        "question_ar": "ما هي أنواع راوترات WE المتاحة؟",
+        "question_en": "What types of WE routers are available?",
+        "docs_retrieved": 10,
+        "top_score": 0.7997,
+        "topics_found": 1,
+        "total_topics": 4,
+        "topic_coverage": 0.25,
+        "topic_hits": {
+          "راوتر": false,
+          "TP-Link": false,
+          "Nokia": false,
+          "WE": true
+        },
+        "top_doc_preview": "لتالية في حالة استهلاك دقائق الباقه الاساسيه:** 1 التجديد المبكر للباقه الاساسيه: يمكنك تجديد باقتك الاساسيه مبكرا قبل تاريخ التجديد وسيتم تغيير تاريخ التجديد تلقائيا في نفس اليوم الذي تقوم فيه بالتجد"
+      },
+      {
+        "question_id": "int_7",
+        "question_ar": "كم دقيقة جروب في باقة WE Mix 215؟",
+        "question_en": "How many group minutes in WE Mix 215?",
+        "docs_retrieved": 10,
+        "top_score": 0.6517,
+        "topics_found": 4,
+        "total_topics": 4,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "WE Mix 215": true,
+          "250": true,
+          "دقيقة": true,
+          "جروب": true
+        },
+        "top_doc_preview": "باقة WE Mix 215 - ويي ميكس 215\nالسعر: 215 جنيه مصري شهريا\nالصلاحية: 30 يوم\nكود الاشتراك: *100#\n\nالمحتويات:\n- موبايل: 3,500 ميجابايت و 1,500 دقيقة و 250 دقيقة جروب\n- انترنت منزلي: 150 جيجابايت\n- رسائل "
+      },
+      {
+        "question_id": "int_8",
+        "question_ar": "ما هو الخصم المتاح عند الاشتراك في باقات Super Kix؟",
+        "question_en": "What discount is available when subscribing to Super Kix packages?",
+        "docs_retrieved": 10,
+        "top_score": 0.745,
+        "topics_found": 4,
+        "total_topics": 4,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "25%": true,
+          "خصم": true,
+          "نيترو": true,
+          "Super Kix": true
+        },
+        "top_doc_preview": "باقة سوبر كيكس 25 - Super Kix 25\nالسعر: 25 جنيه مصري شهريا\nالصلاحية: شهر\nكود الاشتراك: *707*25#\n\nالمحتويات:\n- 750 كيكس\n\nتفاصيل الاستخدام:\n- 1 كيكس = 1 دقيقة لشبكة WE (موبايل او ارضي)\n- 1 كيكس = 1 دقيق"
+      },
+      {
+        "question_id": "int_9",
+        "question_ar": "كيف أفعل 5G على iPhone؟",
+        "question_en": "How to activate 5G on iPhone?",
+        "docs_retrieved": 10,
+        "top_score": 0.6901,
+        "topics_found": 4,
+        "total_topics": 4,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "5G": true,
+          "iPhone": true,
+          "الإعدادات": true,
+          "خلوي": true
+        },
+        "top_doc_preview": "\nدليل تفعيل 5G - وي مصر\n\nازاي تفعل 5G على موبايلك:\n\nمعظم أجهزة 5G بتدعم الخدمة تلقائياً. لكن بعض الأجهزة محتاجة إعداد يدوي كالتالي:\n\nأبل (آيفون):\n- الإعدادات > خلوي > اختار \"WE\" > صوت وبيانات > اختار "
+      },
+      {
+        "question_id": "int_10",
+        "question_ar": "كم عدد افراد العائلة في باقة Super Kix 85؟",
+        "question_en": "How many family members in Super Kix 85?",
+        "docs_retrieved": 10,
+        "top_score": 0.8227,
+        "topics_found": 4,
+        "total_topics": 4,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "Super Kix 85": true,
+          "2": true,
+          "عائلة": true,
+          "افراد": true
+        },
+        "top_doc_preview": "باقة سوبر كيكس 85 - Super Kix 85\nالسعر: 85 جنيه مصري شهريا\nالصلاحية: شهر\nكود الاشتراك: *707*85#\n\nالمحتويات:\n- 4,200 كيكس\n- 2 افراد عائلة اضافيين\n- 1 كيكس = 2 دقيقة لافراد العائلة\n\nتفاصيل الاستخدام:\n- "
+      }
+    ],
+    "hard": [
+      {
+        "question_id": "hard_1",
+        "question_ar": "لو عندي باقة WE Mix 215 وخلص الانترنت المنزلي، إيه خياراتي؟",
+        "question_en": "If I have WE Mix 215 and home internet is finished, what are my options?",
+        "docs_retrieved": 10,
+        "top_score": 0.67,
+        "topics_found": 6,
+        "total_topics": 6,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "انترنت": true,
+          "اضافية": true,
+          "20": true,
+          "50": true,
+          "100": true,
+          "جيجابايت": true
+        },
+        "top_doc_preview": "انظمة التليفون المنزلي WE ارضي الفاتوره الشهريه | | | | | | -- | -- | -- | -- | | **باقات WE ارضي** | **WE ارضي 25** | **WE ارضي 40** | **WE ارضي 70** | | **الدقائق المتاحه بالباقه / شهر** | 120 دقيقه"
+      },
+      {
+        "question_id": "hard_2",
+        "question_ar": "إيه الفرق بين باقات Super Kix الصغيرة (25-45) والكبيرة (60-105)؟",
+        "question_en": "What is the difference between small (25-45) and large (60-105) Super Kix packages?",
+        "docs_retrieved": 10,
+        "top_score": 0.8049,
+        "topics_found": 5,
+        "total_topics": 5,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "Super Kix": true,
+          "عائلة": true,
+          "دقيقة": true,
+          "قسائم": true,
+          "تجديدات": true
+        },
+        "top_doc_preview": "باقة سوبر كيكس 25 - Super Kix 25\nالسعر: 25 جنيه مصري شهريا\nالصلاحية: شهر\nكود الاشتراك: *707*25#\n\nالمحتويات:\n- 750 كيكس\n\nتفاصيل الاستخدام:\n- 1 كيكس = 1 دقيقة لشبكة WE (موبايل او ارضي)\n- 1 كيكس = 1 دقيق"
+      },
+      {
+        "question_id": "hard_3",
+        "question_ar": "كيف أفعل 5G على جهاز Samsung Galaxy؟",
+        "question_en": "How to activate 5G on Samsung Galaxy?",
+        "docs_retrieved": 10,
+        "top_score": 0.6863,
+        "topics_found": 5,
+        "total_topics": 5,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "5G": true,
+          "Samsung": true,
+          "الإعدادات": true,
+          "الاتصالات": true,
+          "شبكة": true
+        },
+        "top_doc_preview": "\nدليل تفعيل 5G - وي مصر\n\nازاي تفعل 5G على موبايلك:\n\nمعظم أجهزة 5G بتدعم الخدمة تلقائياً. لكن بعض الأجهزة محتاجة إعداد يدوي كالتالي:\n\nأبل (آيفون):\n- الإعدادات > خلوي > اختار \"WE\" > صوت وبيانات > اختار "
+      },
+      {
+        "question_id": "hard_4",
+        "question_ar": "لو بستخدم Super Kix 60 وعايز أكلم أفراد عائلتي، كام دقيقة هتكلفني؟",
+        "question_en": "If using Super Kix 60 and want to call family members, how many minutes will it cost?",
+        "docs_retrieved": 10,
+        "top_score": 0.8315,
+        "topics_found": 4,
+        "total_topics": 4,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "كيكس": true,
+          "دقيقة": true,
+          "عائلة": true,
+          "2": true
+        },
+        "top_doc_preview": "باقة سوبر كيكس 60 - Super Kix 60\nالسعر: 60 جنيه مصري شهريا\nالصلاحية: شهر\nكود الاشتراك: *707*60#\n\nالمحتويات:\n- 2,800 كيكس\n- 2 افراد عائلة اضافيين\n- 1 كيكس = 2 دقيقة لافراد العائلة\n\nتفاصيل الاستخدام:\n- "
+      },
+      {
+        "question_id": "hard_5",
+        "question_ar": "ما هي باقات الدقائق الاضافية المتاحة لـ WE Mix؟",
+        "question_en": "What are the additional minutes packages available for WE Mix?",
+        "docs_retrieved": 10,
+        "top_score": 0.7067,
+        "topics_found": 3,
+        "total_topics": 5,
+        "topic_coverage": 0.6,
+        "topic_hits": {
+          "500": true,
+          "دقيقة": true,
+          "65": false,
+          "جنيه": true,
+          "WE Mix": false
+        },
+        "top_doc_preview": "سهل تجربة اشتراك وهتدفع مرة واحدة في السنة بتخفيض سوف تحصل علي سعة الباقة سنوية بشكل كامل عند الاشتراك في باقة WE SPACE السنوية ويمكنك استخدام سعة الباقة طول السنة"
+      }
+    ],
+    "ultra_hard": [
+      {
+        "question_id": "ultra_1",
+        "question_ar": "لو اشتركت في WE Mix 310 وعايز أحسب التكلفة الشهرية الإجمالية مع باقة انترنت اضافية 50 جيجا؟",
+        "question_en": "If I subscribe to WE Mix 310 and want to calculate total monthly cost with 50GB additional internet?",
+        "docs_retrieved": 10,
+        "top_score": 0.7144,
+        "topics_found": 5,
+        "total_topics": 5,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "WE Mix 310": true,
+          "310": true,
+          "50": true,
+          "80": true,
+          "جنيه": true
+        },
+        "top_doc_preview": "انظمة التليفون المنزلي WE ارضي الفاتوره الشهريه | | | | | | -- | -- | -- | -- | | **باقات WE ارضي** | **WE ارضي 25** | **WE ارضي 40** | **WE ارضي 70** | | **الدقائق المتاحه بالباقه / شهر** | 120 دقيقه"
+      },
+      {
+        "question_id": "ultra_2",
+        "question_ar": "لو عندي Super Kix 105 وبتكلم 100 دقيقة يومياً لشبكة WE، كام يوم هيكفيني الكيكس؟",
+        "question_en": "If I have Super Kix 105 and call 100 minutes daily to WE network, how many days will Kixs last?",
+        "docs_retrieved": 10,
+        "top_score": 0.8188,
+        "topics_found": 4,
+        "total_topics": 5,
+        "topic_coverage": 0.8,
+        "topic_hits": {
+          "Super Kix 105": true,
+          "5500": false,
+          "كيكس": true,
+          "100": true,
+          "دقيقة": true
+        },
+        "top_doc_preview": "باقة سوبر كيكس 105 - Super Kix 105\nالسعر: 105 جنيه مصري شهريا\nالصلاحية: شهر\nكود الاشتراك: *707*105#\n\nالمحتويات:\n- 5,500 كيكس\n- 2 افراد عائلة اضافيين\n- 1 كيكس = 2 دقيقة لافراد العائلة\n\nتفاصيل الاستخدام"
+      },
+      {
+        "question_id": "ultra_3",
+        "question_ar": "قارن بين WE Mix 215 و Super Kix 85 من حيث القيمة للاستخدام العادي؟",
+        "question_en": "Compare WE Mix 215 and Super Kix 85 in terms of value for normal usage?",
+        "docs_retrieved": 10,
+        "top_score": 0.7746,
+        "topics_found": 6,
+        "total_topics": 6,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "WE Mix 215": true,
+          "Super Kix 85": true,
+          "215": true,
+          "85": true,
+          "دقيقة": true,
+          "كيكس": true
+        },
+        "top_doc_preview": "باقة سوبر كيكس 85 - Super Kix 85\nالسعر: 85 جنيه مصري شهريا\nالصلاحية: شهر\nكود الاشتراك: *707*85#\n\nالمحتويات:\n- 4,200 كيكس\n- 2 افراد عائلة اضافيين\n- 1 كيكس = 2 دقيقة لافراد العائلة\n\nتفاصيل الاستخدام:\n- "
+      },
+      {
+        "question_id": "ultra_4",
+        "question_ar": "لو عندي iPhone وعايز أفعل 5G وأشترك في Super Kix 60، إيه الخطوات؟",
+        "question_en": "If I have iPhone and want to activate 5G and subscribe to Super Kix 60, what are the steps?",
+        "docs_retrieved": 10,
+        "top_score": 0.7226,
+        "topics_found": 2,
+        "total_topics": 5,
+        "topic_coverage": 0.4,
+        "topic_hits": {
+          "5G": false,
+          "iPhone": false,
+          "Super Kix 60": true,
+          "*707*60#": true,
+          "الإعدادات": false
+        },
+        "top_doc_preview": "باقة سوبر كيكس 60 - Super Kix 60\nالسعر: 60 جنيه مصري شهريا\nالصلاحية: شهر\nكود الاشتراك: *707*60#\n\nالمحتويات:\n- 2,800 كيكس\n- 2 افراد عائلة اضافيين\n- 1 كيكس = 2 دقيقة لافراد العائلة\n\nتفاصيل الاستخدام:\n- "
+      },
+      {
+        "question_id": "ultra_5",
+        "question_ar": "إيه الفرق بين باقة الدقائق الاضافية لـ WE Mix وميزة العائلة في Super Kix؟",
+        "question_en": "What is the difference between WE Mix additional minutes and Super Kix family feature?",
+        "docs_retrieved": 10,
+        "top_score": 0.716,
+        "topics_found": 4,
+        "total_topics": 6,
+        "topic_coverage": 0.67,
+        "topic_hits": {
+          "WE Mix": false,
+          "Super Kix": true,
+          "دقيقة": true,
+          "عائلة": true,
+          "500": true,
+          "65": false
+        },
+        "top_doc_preview": "باقة سوبر كيكس 45 - Super Kix 45\nالسعر: 45 جنيه مصري شهريا\nالصلاحية: شهر\nكود الاشتراك: *707*45#\n\nالمحتويات:\n- 1,800 كيكس\n\nتفاصيل الاستخدام:\n- 1 كيكس = 1 دقيقة لشبكة WE (موبايل او ارضي)\n- 1 كيكس = 1 دق"
+      },
+      {
+        "question_id": "ultra_6",
+        "question_ar": "لو بستخدم 5 جيجا انترنت يومياً، هل WE Mix 215 يكفيني للشهر كله؟",
+        "question_en": "If I use 5GB internet daily, will WE Mix 215 be enough for the whole month?",
+        "docs_retrieved": 10,
+        "top_score": 0.6563,
+        "topics_found": 5,
+        "total_topics": 5,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "WE Mix 215": true,
+          "150": true,
+          "جيجابايت": true,
+          "3500": true,
+          "ميجا": true
+        },
+        "top_doc_preview": "انظمة التليفون المنزلي WE ارضي الفاتوره الشهريه | | | | | | -- | -- | -- | -- | | **باقات WE ارضي** | **WE ارضي 25** | **WE ارضي 40** | **WE ارضي 70** | | **الدقائق المتاحه بالباقه / شهر** | 120 دقيقه"
+      },
+      {
+        "question_id": "ultra_7",
+        "question_ar": "ما هي أفضل باقة Super Kix للعائلة المكونة من 3 أفراد؟",
+        "question_en": "What is the best Super Kix package for a family of 3?",
+        "docs_retrieved": 10,
+        "top_score": 0.7225,
+        "topics_found": 5,
+        "total_topics": 5,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "Super Kix": true,
+          "85": true,
+          "105": true,
+          "عائلة": true,
+          "كيكس": true
+        },
+        "top_doc_preview": "باقة سوبر كيكس 32 - Super Kix 32\nالسعر: 32 جنيه مصري شهريا\nالصلاحية: شهر\nكود الاشتراك: *707*32#\n\nالمحتويات:\n- 1,00 كيكس\n\nتفاصيل الاستخدام:\n- 1 كيكس = 1 دقيقة لشبكة WE (موبايل او ارضي)\n- 1 كيكس = 1 دقي"
+      },
+      {
+        "question_id": "ultra_8",
+        "question_ar": "كيف أحصل على قسائم مجانية من WE مع باقات Super Kix؟",
+        "question_en": "How to get free vouchers from WE with Super Kix packages?",
+        "docs_retrieved": 10,
+        "top_score": 0.7479,
+        "topics_found": 4,
+        "total_topics": 4,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "قسائم": true,
+          "Super Kix": true,
+          "تجديدات": true,
+          "3": true
+        },
+        "top_doc_preview": "باقة سوبر كيكس 25 - Super Kix 25\nالسعر: 25 جنيه مصري شهريا\nالصلاحية: شهر\nكود الاشتراك: *707*25#\n\nالمحتويات:\n- 750 كيكس\n\nتفاصيل الاستخدام:\n- 1 كيكس = 1 دقيقة لشبكة WE (موبايل او ارضي)\n- 1 كيكس = 1 دقيق"
+      },
+      {
+        "question_id": "ultra_9",
+        "question_ar": "لو بستخدم واتساب وفيسبوك بكثرة، هل Super Kix 32 أفضل من WE Mix 215؟",
+        "question_en": "If I use WhatsApp and Facebook heavily, is Super Kix 32 better than WE Mix 215?",
+        "docs_retrieved": 10,
+        "top_score": 0.7388,
+        "topics_found": 4,
+        "total_topics": 5,
+        "topic_coverage": 0.8,
+        "topic_hits": {
+          "Super Kix": true,
+          "WE Mix": true,
+          "فيسبوك": true,
+          "واتساب": true,
+          "مجاني": false
+        },
+        "top_doc_preview": "باقة سوبر كيكس 32 - Super Kix 32\nالسعر: 32 جنيه مصري شهريا\nالصلاحية: شهر\nكود الاشتراك: *707*32#\n\nالمحتويات:\n- 1,00 كيكس\n\nتفاصيل الاستخدام:\n- 1 كيكس = 1 دقيقة لشبكة WE (موبايل او ارضي)\n- 1 كيكس = 1 دقي"
+      },
+      {
+        "question_id": "ultra_10",
+        "question_ar": "ما هي كل أكواد الاشتراك المتاحة لباقات Super Kix؟",
+        "question_en": "What are all subscription codes available for Super Kix packages?",
+        "docs_retrieved": 10,
+        "top_score": 0.7429,
+        "topics_found": 8,
+        "total_topics": 8,
+        "topic_coverage": 1.0,
+        "topic_hits": {
+          "*707*": true,
+          "Super Kix": true,
+          "25": true,
+          "32": true,
+          "45": true,
+          "60": true,
+          "85": true,
+          "105": true
+        },
+        "top_doc_preview": "باقة سوبر كيكس 25 - Super Kix 25\nالسعر: 25 جنيه مصري شهريا\nالصلاحية: شهر\nكود الاشتراك: *707*25#\n\nالمحتويات:\n- 750 كيكس\n\nتفاصيل الاستخدام:\n- 1 كيكس = 1 دقيقة لشبكة WE (موبايل او ارضي)\n- 1 كيكس = 1 دقيق"
+      }
+    ]
+  }
+}

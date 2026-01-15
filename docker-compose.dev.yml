@@ -1,0 +1,27 @@
+version: '3.8'
+
+# Development override for docker-compose.yml
+# Usage: docker-compose -f docker-compose.yml -f docker-compose.dev.yml up
+
+services:
+  chatbot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: builder
+    volumes:
+      # Mount source code for hot-reload
+      - ./src:/app/src
+      - ./tests:/app/tests
+      - ./config:/app/config
+      - ./data:/app/data
+    environment:
+      - ENVIRONMENT=development
+      - DEBUG=true
+      - LOG_LEVEL=DEBUG
+    command: uvicorn src.api.main:app --host 0.0.0.0 --port 8000 --reload
+    # Override health check for faster development feedback
+    healthcheck:
+      interval: 10s
+      timeout: 5s
+      start_period: 30s
