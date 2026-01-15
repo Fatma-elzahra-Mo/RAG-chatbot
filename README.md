@@ -61,12 +61,6 @@ streamlit run streamlit_app/app.py
 
 ### Step-by-Step Installation
 
-#### 1. Clone the Repository
-
-```bash
-git clone https://github.com/YassinNouh21/arabic-rag-chatbot.git
-cd arabic-rag-chatbot
-```
 
 #### 2. Create Virtual Environment (Recommended)
 
@@ -645,4 +639,3 @@ black src/ tests/ && ruff check --fix src/ tests/
 
 ---
 
-**Built with 2025 AI Benchmarks | Production Ready**
