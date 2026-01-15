@@ -33,9 +33,6 @@ Production-ready Arabic RAG (Retrieval-Augmented Generation) chatbot with conver
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/YassinNouh21/arabic-rag-chatbot.git
-cd arabic-rag-chatbot
-
 # 2. Create .env file
 cp .env.example .env
 # Edit .env and add your API keys (see Configuration section)
